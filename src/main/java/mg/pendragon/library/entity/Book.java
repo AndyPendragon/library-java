@@ -1,6 +1,5 @@
 package mg.pendragon.library.entity;
 
-import org.springframework.boot.autoconfigure.kafka.KafkaProperties.Retry.Topic;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
