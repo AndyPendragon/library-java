@@ -1,4 +1,4 @@
-CREATE TABLE "Author" (
+CREATE TABLE IF NOT EXISTS "Author" (
     "id" SERIAL PRIMARY KEY,
     "name" VARCHAR(255) NOT NULL,
     "sex" VARCHAR(1) CHECK ("sex" IN ('M', 'F'))

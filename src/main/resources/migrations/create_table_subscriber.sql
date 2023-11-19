@@ -1,4 +1,4 @@
-CREATE TABLE "Subscribers" (
+CREATE TABLE IF NOT EXISTS "Subscribers" (
     "id" SERIAL PRIMARY KEY,
     "name" VARCHAR(255) NOT NULL,
     "reference" VARCHAR(255) NOT NULL

@@ -1,4 +1,4 @@
-CREATE TABLE "Book" (
+CREATE TABLE IF NOT EXISTS "Book" (
     "id" SERIAL PRIMARY KEY,
     "bookName" VARCHAR(255) NOT NULL,
     "pageNumbers" INT,

@@ -1,4 +1,4 @@
-CREATE TABLE "Topic" (
+CREATE TABLE IF NOT EXISTS "Topic" (
     "topic" VARCHAR(20) PRIMARY KEY CHECK ("topic" IN ('ROMANCE', 'COMEDY', 'OTHER'))
 );
 
